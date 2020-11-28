@@ -11,11 +11,12 @@ const nextUniq = (length, min, max, original = []) => {
 }
 
 const randomIntList = (length, max, min = 0) => {
+  // console.log('length, max, min', length, max, min)
   return nextUniq(length, max, min)
 }
 
 const pokeDBSprite = key => {
-  return `https://images.weserv.nl/?url=img.pokemondb.net/artwork/${key}.jpg`
+  return `/img/${key}.jpg`
 }
 
 const pokeApiSprite = id => {

@@ -11,7 +11,7 @@
 
       <div class="control canvas-content" ref="content">
         <img src="img/8bits-coach.png">
-        <h3>Pokémon - Memory Game</h3>
+        <h3>יום הולדת שמח - בהאבה מהנכדים ....</h3>
         <hr />
 
         <div class="tags has-addons are-medium">

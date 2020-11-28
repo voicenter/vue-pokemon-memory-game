@@ -3,8 +3,8 @@
     <div class="navbar-brand">
       <div class="navbar-item mono">
         <img :src="logo" title="Pokémon" alt="Pokémon" class="logo">
-        <span v-if="isMobile">Memory Game</span>
-        <span v-else>Pokémon - Memory Game</span>
+        <span v-if="isMobile">יום הולדת שמח </span>
+        <span v-else>יום הולדת שמח - בהאבה מהנכדים ...</span>
       </div>
       <div class="navbar-item">
         <Timer class="is-pulled-right" v-if="isMobile" />

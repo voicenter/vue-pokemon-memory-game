@@ -79,6 +79,7 @@ export default {
     }
 
     im.src = this.src
+    console.log(im)
   }
 }
 </script>
